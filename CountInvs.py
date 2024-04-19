@@ -17,7 +17,7 @@ def countINVpairs(arr, l, m, r):
     # Merge the two sub-arrays back into the original array
     i = 0
     j = 0
-    k = 1  # Initialize the index for the merged array
+    k = 0  # Initialize the index for the merged array
     count = 0  # Initialize the inversion count
 
     while i < n1 and j < n2:
